@@ -1,0 +1,25 @@
+.header {
+    width: 93vw;
+    height: 8.2759vh;
+    align-items: center;
+    display: flex;
+    margin: 0 3.29vw;
+    justify-content: space-between;
+
+    .header-img {
+        height: 100%;
+
+        img {
+            height: 100%;
+        }
+    }
+
+    .header-support {
+        color: #fff;
+
+        i {
+            font-size: 1.6rem;
+        }
+    }
+
+}

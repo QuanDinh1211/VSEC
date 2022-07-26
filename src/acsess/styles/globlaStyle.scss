@@ -1,0 +1,45 @@
+@import './mixin.scss';
+
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+html {
+    font-size: 62.5%;
+
+    @include responsive(phone) {
+        font-size: 50%;
+    }
+
+    @include responsive(tablet) {
+        font-size: 56.25%;
+    }
+
+}
+
+
+body {
+    background-color: #001E6C;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.content {
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+}
+
+span {
+    color: #fff;
+}
