@@ -256,7 +256,7 @@ const Body = () => {
                 },
                 {
                     logoSystem: 'mkitmem8.png',
-                    nameSystem: 'Getresponse',
+                    nameSystem: 'Get response',
                     pathSystem: 'https://www.getresponse.com/'
                 },
             ]
