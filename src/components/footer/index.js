@@ -19,15 +19,21 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='footer-item logo-inter'>
-                    <div className='item-inter facebook'>
-                        <i className="fab fa-facebook"></i>
-                    </div>
-                    <div className='item-inter'>
-                        <i className="fab fa-linkedin-in"></i>
-                    </div>
-                    <div className='item-inter'>
-                        <i className="fab fa-youtube"></i>
-                    </div>
+                    <a href='https://www.facebook.com/vsec.com.vn'>
+                        <div className='item-inter facebook'>
+                            <i className="fab fa-facebook"></i>
+                        </div>
+                    </a>
+                    <a href='https://www.linkedin.com/authwall?trk=qf&original_referer=https://vsec.com.vn/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fvsec-jsc'>
+                        <div className='item-inter'>
+                            <i className="fab fa-linkedin-in"></i>
+                        </div>
+                    </a>
+                    <a href='https://www.youtube.com/channel/UCkMSdX_cMNjEtryOql4vVag'>
+                        <div className='item-inter'>
+                            <i className="fab fa-youtube"></i>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>

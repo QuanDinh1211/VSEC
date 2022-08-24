@@ -1,6 +1,4 @@
-import { useState, useContext, useEffect } from 'react'
-
-import { DepartmentContext } from '../../../store/DepartmentContext'
+import { useState } from 'react'
 
 import Department from './index'
 import RenderSystem from '../system'
@@ -14,20 +12,25 @@ const ListRowDepartment = ({ listDepartment }) => {
         data: [],
     })
 
-    const { renderLayoutCover } = useContext(DepartmentContext)
+    console.log('listDepartment', listDepartment);
 
     const { show, data, indexItemShow } = renderSystem
 
 
-    useEffect((renderSystem) => {
-        if (!renderLayoutCover) {
-            setRenderSystem({
-                ...renderSystem,
-                indexItemShow: null,
-                show: false,
-            })
-        }
-    }, [renderLayoutCover])
+    const handleOnMouseEnter = () => {
+        setRenderSystem({
+            ...renderSystem,
+            show: true
+        })
+    }
+
+    const handleUnMouseEnter = () => {
+        setRenderSystem({
+            show: false,
+            indexItemShow: null
+        })
+    }
+
 
     return (
         <>
@@ -48,7 +51,7 @@ const ListRowDepartment = ({ listDepartment }) => {
                 }
             </div>
 
-            {renderLayoutCover && show && <RenderSystem data={data} />}
+            {show && <RenderSystem data={data} onMouseEnter={handleOnMouseEnter} onMouseLeave={handleUnMouseEnter}/>}
 
         </>
     )

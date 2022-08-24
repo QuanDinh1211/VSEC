@@ -1,7 +1,3 @@
-import { useContext } from 'react'
-
-import { DepartmentContext } from '../../store/DepartmentContext'
-
 import './styleBody.scss'
 import Slide from './slide'
 import ListRowDepartment from './department/ListRowDepartment'
@@ -263,12 +259,6 @@ const Body = () => {
         },
     ]
 
-    const { renderLayoutCover, setRenderLayoutCover } = useContext(DepartmentContext)
-    const handalUnshowSytem = () => {
-        setRenderLayoutCover(false)
-    }
-
-
     let listRowDepartment = []
 
     let numberRow
@@ -302,7 +292,6 @@ const Body = () => {
                     }
                 </div>
             </div>
-            {renderLayoutCover && <div className='layout-cover' onClick={handalUnshowSytem}></div>}
         </div>
     )
 }

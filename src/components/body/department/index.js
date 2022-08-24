@@ -1,11 +1,4 @@
-import { useContext } from 'react'
-
-import { DepartmentContext } from '../../../store/DepartmentContext'
-
 const Department = ({ logo, name, index, none, systems, setRenderSystem }) => {
-
-    const { setRenderLayoutCover } = useContext(DepartmentContext)
-
 
     const handleOnMouseEnter = () => {
         setRenderSystem({
@@ -13,13 +6,19 @@ const Department = ({ logo, name, index, none, systems, setRenderSystem }) => {
             indexItemShow: index,
             data: systems,
         })
-        setRenderLayoutCover(true)
+    }
+
+    const handleUnMouseEnter = () => {
+        setRenderSystem({
+            show: false,
+            indexItemShow: null
+        })
     }
 
     return (
         <>
             <div className="wrap-department-item">
-                <div className={`department-item ${none}`} onMouseEnter={handleOnMouseEnter}>
+                <div className={`department-item ${none}`} onMouseEnter={handleOnMouseEnter} onMouseLeave={handleUnMouseEnter}>
                     <div className="logo-department">
                         <img src={require(`../../../acsess/img/${logo}`)} alt='' />
                     </div>

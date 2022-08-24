@@ -1,8 +1,8 @@
 
 
-const RenderSystem = ({ data }) => {
+const RenderSystem = ({ data, onMouseEnter, onMouseLeave }) => {
     return (
-        <div className='render-systems'>
+        <div className='render-systems' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
             {
                 data.map((item, index) => {
                     const { logoSystem, nameSystem, pathSystem } = item

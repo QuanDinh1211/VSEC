@@ -4,14 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import DepartmentContextProvider from './store/DepartmentContext'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <DepartmentContextProvider>
       <App />
-    </DepartmentContextProvider>
   </React.StrictMode>
 );
 

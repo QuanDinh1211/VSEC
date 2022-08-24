@@ -16,8 +16,10 @@
 
     .footer-body {
         height: 100%;
+        width: 100%;
         display: flex;
         align-items: center;
+        justify-content: space-around;
 
         .footer-item {
             display: flex;
@@ -33,7 +35,7 @@
             }
 
             &.address {
-                flex: 1.2;
+                // flex: 1.2;
 
 
                 span {
@@ -72,36 +74,40 @@
                     display: none;
                 }
 
-                .item-inter {
-                    width: 40px;
-                    height: 40px;
-                    border-radius: 50%;
-                    border: 1px solid #fff;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    margin-left: 2.63157vw;
-                    color: #fff;
-
-
-
-                    @include responsive(tablet) {
+                a {
+                    text-decoration: none;
+                    .item-inter {
                         width: 40px;
                         height: 40px;
-                    }
-
-                    i {
-                        font-size: 2.8rem;
-                    }
-
-                    &.facebook {
-                        border: none;
-
+                        border-radius: 50%;
+                        border: 1px solid #fff;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-left: 2.63157vw;
+                        color: #fff;
+    
+    
+    
+                        @include responsive(tablet) {
+                            width: 40px;
+                            height: 40px;
+                        }
+    
                         i {
-                            font-size: 4rem;
+                            font-size: 2.8rem;
+                        }
+    
+                        &.facebook {
+                            border: none;
+    
+                            i {
+                                font-size: 4rem;
+                            }
                         }
                     }
                 }
+                
             }
         }
     }
