@@ -26,8 +26,13 @@ const Body = () => {
                 },
                 {
                     logoSystem: 'mkitmem3.png',
-                    nameSystem: 'Gapo',
+                    nameSystem: 'Gapowork',
                     pathSystem: 'https://www.gapowork.vn/'
+                },
+                {
+                    logoSystem: 'gmail.png',
+                    nameSystem: 'Gmail',
+                    pathSystem: 'https://www.google.com/intl/vi/gmail/about/'
                 },
 
             ]
@@ -38,13 +43,23 @@ const Body = () => {
             systems: [
                 {
                     logoSystem: 'mkitmem3.png',
-                    nameSystem: 'Kênh thông tin nội bộ ',
+                    nameSystem: 'Gapowork',
                     pathSystem: 'https://www.gapowork.vn/'
+                },
+                {
+                    logoSystem: 'nhansuitem1.png',
+                    nameSystem: 'Phần mềm nhân sự',
+                    pathSystem: 'https://hr.g-group.com.vn/'
                 },
                 {
                     logoSystem: 'driver.png',
                     nameSystem: 'Drive',
                     pathSystem: 'https://drive.google.com/'
+                },
+                {
+                    logoSystem: 'gmail.png',
+                    nameSystem: 'Gmail',
+                    pathSystem: 'https://www.google.com/intl/vi/gmail/about/'
                 },
 
             ]
@@ -59,14 +74,24 @@ const Body = () => {
                     pathSystem: 'https://amisapp.misa.vn/crm/dashboard/main'
                 },
                 {
+                    logoSystem: 'nhansuitem1.png',
+                    nameSystem: 'Phần mềm nhân sự',
+                    pathSystem: 'https://hr.g-group.com.vn/'
+                },
+                {
                     logoSystem: 'driver.png',
                     nameSystem: 'Drive',
                     pathSystem: 'https://drive.google.com/'
                 },
                 {
                     logoSystem: 'mkitmem3.png',
-                    nameSystem: 'Gapo',
+                    nameSystem: 'Gapowork',
                     pathSystem: 'https://www.gapowork.vn/'
+                },
+                {
+                    logoSystem: 'gmail.png',
+                    nameSystem: 'Gmail',
+                    pathSystem: 'https://www.google.com/intl/vi/gmail/about/'
                 },
 
             ]
@@ -81,14 +106,24 @@ const Body = () => {
                     pathSystem: 'https://ps.vsec.vn/login'
                 },
                 {
+                    logoSystem: 'nhansuitem1.png',
+                    nameSystem: 'Phần mềm nhân sự',
+                    pathSystem: 'https://hr.g-group.com.vn/'
+                },
+                {
                     logoSystem: 'driver.png',
                     nameSystem: 'Drive',
                     pathSystem: 'https://drive.google.com/'
                 },
                 {
                     logoSystem: 'mkitmem3.png',
-                    nameSystem: 'Gapo',
+                    nameSystem: 'Gapowork',
                     pathSystem: 'https://www.gapowork.vn/'
+                },
+                {
+                    logoSystem: 'gmail.png',
+                    nameSystem: 'Gmail',
+                    pathSystem: 'https://www.google.com/intl/vi/gmail/about/'
                 },
             ]
         },
@@ -102,14 +137,24 @@ const Body = () => {
                     pathSystem: 'https://ps.vsec.vn/login'
                 },
                 {
+                    logoSystem: 'nhansuitem1.png',
+                    nameSystem: 'Phần mềm nhân sự',
+                    pathSystem: 'https://hr.g-group.com.vn/'
+                },
+                {
                     logoSystem: 'driver.png',
                     nameSystem: 'Drive',
                     pathSystem: 'https://drive.google.com/'
                 },
                 {
                     logoSystem: 'mkitmem3.png',
-                    nameSystem: 'Gapo',
+                    nameSystem: 'Gapowork',
                     pathSystem: 'https://www.gapowork.vn/'
+                },
+                {
+                    logoSystem: 'gmail.png',
+                    nameSystem: 'Gmail',
+                    pathSystem: 'https://www.google.com/intl/vi/gmail/about/'
                 },
             ]
         },
@@ -117,6 +162,16 @@ const Body = () => {
             logo: 'soc.png',
             name: 'SOC',
             systems: [
+                {
+                    logoSystem: 'techitem2.png',
+                    nameSystem: 'VSEC TICKET',
+                    pathSystem: 'http://ticket.vsec.vn:8080/'
+                },
+                {
+                    logoSystem: 'nhansuitem1.png',
+                    nameSystem: 'Phần mềm nhân sự',
+                    pathSystem: 'https://hr.g-group.com.vn/'
+                },
                 {
                     logoSystem: 'socitem1.png',
                     nameSystem: 'Vadar',
@@ -154,8 +209,13 @@ const Body = () => {
                 },
                 {
                     logoSystem: 'mkitmem3.png',
-                    nameSystem: 'Gapo',
+                    nameSystem: 'Gapowork',
                     pathSystem: 'https://www.gapowork.vn/'
+                },
+                {
+                    logoSystem: 'gmail.png',
+                    nameSystem: 'Gmail',
+                    pathSystem: 'https://www.google.com/intl/vi/gmail/about/'
                 },
             ]
         },
@@ -169,6 +229,11 @@ const Body = () => {
                     pathSystem: 'https://amisapp.misa.vn/home'
                 },
                 {
+                    logoSystem: 'nhansuitem1.png',
+                    nameSystem: 'Phần mềm nhân sự',
+                    pathSystem: 'https://hr.g-group.com.vn/'
+                },
+                {
                     logoSystem: 'ketoaniteam2.png',
                     nameSystem: 'Hóa đơn',
                     pathSystem: 'https://sso.easyinvoice.vn/account/login?ReturnUrl=%2Fconnect%2Fauthorize%3Fclient_id%3DEasyInvoice%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520email%26state%3DOpenIdConnect.AuthenticationProperties%253DKb9AUWn9HJh7XPHu6YBHUF9EgkCBl1G75oFGGwE0bBCS59KE_a6W8alNuQxq-WuOXJfzBZNf6MT6ec9nGVZFYS-DTwIHYviJTGg1Rmbez9NfDrixSrFyiw0F0_uFiqeYMC1hxcT4KO5tRHvzqserzjGUmffxfdZRpign5IiIP-U%26response_mode%3Dform_post%26nonce%3D637910387976215557.OWI3MjMwYzYtMTMyMi00YjBkLTlkNGUtZGVlMTUzMDg5ZWI1YWFkNzE0N2UtZGJkMC00NDY2LTliMGQtODcxMjM5MzI2YTdl%26redirect_uri%3Dhttps%253A%252F%252F0101724513.easyinvoice.com.vn%252F%26post_logout_redirect_uri%3Dhttps%253A%252F%252F0101724513.easyinvoice.com.vn%252F%26x-client-SKU%3DID_NET45%26x-client-ver%3D5.3.0.0'
@@ -180,8 +245,13 @@ const Body = () => {
                 },
                 {
                     logoSystem: 'mkitmem3.png',
-                    nameSystem: 'Gapo',
+                    nameSystem: 'Gapowork',
                     pathSystem: 'https://www.gapowork.vn/'
+                },
+                {
+                    logoSystem: 'gmail.png',
+                    nameSystem: 'Gmail',
+                    pathSystem: 'https://www.google.com/intl/vi/gmail/about/'
                 },
             ]
         },
@@ -195,6 +265,11 @@ const Body = () => {
                     pathSystem: 'https://techsupport.vsec.vn/'
                 },
                 {
+                    logoSystem: 'nhansuitem1.png',
+                    nameSystem: 'Phần mềm nhân sự',
+                    pathSystem: 'https://hr.g-group.com.vn/'
+                },
+                {
                     logoSystem: 'techitem2.png',
                     nameSystem: 'VSEC TICKET',
                     pathSystem: 'http://ticket.vsec.vn:8080/'
@@ -206,8 +281,17 @@ const Body = () => {
                 },
                 {
                     logoSystem: 'mkitmem3.png',
-                    nameSystem: 'Gapo',
+                    nameSystem: 'Gapowork',
                     pathSystem: 'https://www.gapowork.vn/'
+                },
+                {
+                    logoSystem: 'gmail.png',
+                    nameSystem: 'Gmail',
+                    pathSystem: 'https://www.google.com/intl/vi/gmail/about/'
+                },{
+                    logoSystem: 'telegram.png',
+                    nameSystem: 'Telegram',
+                    pathSystem: 'https://web.telegram.org/z/'
                 },
             ]
         },
@@ -219,6 +303,11 @@ const Body = () => {
                     logoSystem: 'mktiem1.png',
                     nameSystem: 'Facebook',
                     pathSystem: 'https://www.facebook.com/vsec.com.vn'
+                },
+                {
+                    logoSystem: 'nhansuitem1.png',
+                    nameSystem: 'Phần mềm nhân sự',
+                    pathSystem: 'https://hr.g-group.com.vn/'
                 },
                 {
                     logoSystem: 'socitem4.png',
@@ -242,7 +331,7 @@ const Body = () => {
                 },
                 {
                     logoSystem: 'mkitmem3.png',
-                    nameSystem: 'Gapo',
+                    nameSystem: 'Gapowork',
                     pathSystem: 'https://www.gapowork.vn/'
                 },
                 {
@@ -254,6 +343,11 @@ const Body = () => {
                     logoSystem: 'mkitmem8.png',
                     nameSystem: 'Get response',
                     pathSystem: 'https://www.getresponse.com/'
+                },
+                {
+                    logoSystem: 'gmail.png',
+                    nameSystem: 'Gmail',
+                    pathSystem: 'https://www.google.com/intl/vi/gmail/about/'
                 },
             ]
         },

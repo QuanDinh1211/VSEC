@@ -1,8 +1,10 @@
 @import '../../../acsess/styles/mixin.scss';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
 
 .slide-item {
     width: 100%;
     height: 31.725vh;
+    position: relative;
 
     @include responsive(phone) {
         height: 25vh;
@@ -12,5 +14,19 @@
         width: 100%;
         height: 100%;
 
+    }
+
+    span {
+        position: absolute;
+        width: 539px;
+        height: 66px;
+        left: 4%;
+        top: 80px;
+        font-weight: 800;
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+        text-align: left;
     }
 }
