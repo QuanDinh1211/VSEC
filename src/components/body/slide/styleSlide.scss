@@ -6,9 +6,7 @@
     height: 31.725vh;
     position: relative;
 
-    @include responsive(phone) {
-        height: 25vh;
-    }
+    
 
     img {
         width: 100%;
@@ -28,5 +26,14 @@
         line-height: 22px;
         color: #FFFFFF;
         text-align: left;
+    }
+
+    @include responsive(phone) {
+        height: 25vh;
+        span {
+            width: 200px;
+            font-size: 7px;
+            line-height: 16px;
+        }
     }
 }
