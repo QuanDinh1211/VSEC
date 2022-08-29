@@ -129,7 +129,7 @@ const Body = () => {
         },
         {
             logo: 'chuyengia.png',
-            name: 'Dịch vụ chuyên gia',
+            name: 'Professional service',
             systems: [
                 {
                     logoSystem: 'pmitem1.png',
